@@ -18,10 +18,25 @@
 
 #### 1. PYTHON ENVIRONMENT
 
+**Install pip**
+
 ```
 $ sudo easy_install pip
 ```
 
+**Install pyenv**
+
 ```
 $ brew update && brew install pyenv
+```
+
+Append the following to ~/.zshrc
+
+```
+# pyenv ----
+# To use Homebrew's directories rather than ~/.pyenv
+export PYENV_ROOT="/usr/local/var/pyenv"
+
+# To enable shims and autocompletion
+if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi
 ```
