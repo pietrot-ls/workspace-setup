@@ -16,7 +16,7 @@
 - [Configure OhMyZsh Theme](https://github.com/ohmyzsh/ohmyzsh/wiki/Themes#half-life)
 - [Install Homebrew](https://brew.sh/)
 
-#### 1. PYTHON ENVIRONMENT
+#### 3. PYTHON ENVIRONMENT
 
 **Install pip**
 
@@ -39,4 +39,12 @@ export PYENV_ROOT="/usr/local/var/pyenv"
 
 # To enable shims and autocompletion
 if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi
+```
+
+#### 4. GIT
+
+https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
+
+```
+ssh-keygen -t rsa -b 4096 -C "pietro.tortorici@lightspeedhq.com
 ```
