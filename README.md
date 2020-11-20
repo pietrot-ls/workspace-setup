@@ -45,6 +45,28 @@ if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi
 
 https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
 
+**Generate public/private key pair**
+
 ```
-ssh-keygen -t rsa -b 4096 -C "pietro.tortorici@lightspeedhq.com
+$ ssh-keygen -t rsa -b 4096 -C "pietro.tortorici@lightspeedhq.com
+```
+
+**Ensure ssh-agent is running**
+
+```
+$ eval "$(ssh-agent -s)"
+$ touch ~/.ssh/config
+```
+
+**Append the following to ~/.ssh/config**
+
+```
+Host *
+  AddKeysToAgent yes
+  UseKeychain yes
+  IdentityFile ~/.ssh/ls_github
+```
+
+```
+$ ssh-add -K ~/.ssh/ls_github
 ```
