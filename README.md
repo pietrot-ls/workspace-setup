@@ -71,6 +71,14 @@ Host *
 $ ssh-add -K ~/.ssh/ls_github
 ```
 
+**GPG signing**
+
+```
+$ brew install gnupg
+```
+
+Follow instructions here: https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/generating-a-new-gpg-key
+
 #### 5. MISC
 
 ```
