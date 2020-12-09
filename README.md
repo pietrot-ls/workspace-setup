@@ -70,3 +70,9 @@ Host *
 ```
 $ ssh-add -K ~/.ssh/ls_github
 ```
+
+#### 5. MISC
+
+```
+$ brew install wget curl tig
+```
