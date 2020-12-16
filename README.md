@@ -79,11 +79,6 @@ $ brew install gnupg
 
 Follow instructions here: https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/generating-a-new-gpg-key
 
-```
-$ brew install smimesign
-```
-
-Follow instructions here: https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/telling-git-about-your-signing-key
 
 #### 5. MISC
 
