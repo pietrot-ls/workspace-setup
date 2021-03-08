@@ -21,6 +21,7 @@
 **Install pip**
 
 ```
+$ brew install python@2
 $ sudo easy_install pip
 ```
 
