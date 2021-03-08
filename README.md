@@ -84,5 +84,5 @@ Follow instructions here: https://docs.github.com/en/free-pro-team@latest/github
 #### 5. MISC
 
 ```
-$ brew install wget curl tig
+$ brew install wget curl tig htop
 ```
